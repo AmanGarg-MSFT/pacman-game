@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #00f;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.score, .lives {
+    color: #ffff00;
+}
+
+#gameCanvas {
+    border: 2px solid #00f;
+    background-color: #000080;
+    display: block;
+    margin: 0 auto;
+}
+
+.game-info {
+    margin-top: 20px;
+}
+
+#gameMessage {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-height: 30px;
+}
+
+.controls {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.controls p {
+    margin: 5px 0;
+}
+
+/* Game over and win messages */
+.win-message {
+    color: #00ff00;
+}
+
+.game-over-message {
+    color: #ff0000;
+}
+
+.info-message {
+    color: #ffff00;
+}
